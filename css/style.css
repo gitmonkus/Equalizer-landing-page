@@ -317,12 +317,13 @@ button {
   .tablet__right__img {
     min-width: 312px;
     min-height: 468px;
+    top: -37px;
   }
 
   /* MAIN TEXT SECTION */
 
   .main__logo {
-    margin-bottom: 122.01px;
+    margin-bottom: 121.01px;
     margin-left: 166.15px;
     margin-top: 61.99px;
   }
@@ -359,12 +360,12 @@ button {
 
   .illustration__img {
     max-height: 468px;
-    top: -41px;
+    top: -43px;
     left: 335px;
   }
 
   .illustration__app {
-    top: -220px;
+    top: -217px;
     left: 258px;
     max-width: 312px;
     max-height: 642px;
@@ -387,6 +388,7 @@ button {
   .premium__h2 {
     font-size: 40px;
     line-height: 52px;
+    margin-top: 3px;
     margin-bottom: 22px;
   }
 
@@ -398,6 +400,12 @@ button {
 
   .premium__cost {
     margin-left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .premium__dollar {
+    margin-right: 16px;
   }
 
   .premium__btn__ios,
@@ -438,7 +446,11 @@ button {
   }
 
   .footer__p {
-    margin-right: 359px;
+    margin-right: 339px;
+  }
+
+  .footer__social__a:last-child {
+    margin-right: 0;
   }
 
   .footer__social img:hover,

@@ -317,7 +317,7 @@ button {
   .tablet__right__img {
     min-width: 312px;
     min-height: 468px;
-    top: -37px;
+    top: -39px;
   }
 
   /* MAIN TEXT SECTION */
@@ -339,7 +339,7 @@ button {
     font-size: 88px;
     line-height: 88px;
     letter-spacing: -1px;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
   }
 
   .main__p {
@@ -365,7 +365,7 @@ button {
   }
 
   .illustration__app {
-    top: -217px;
+    top: -215px;
     left: 258px;
     max-width: 312px;
     max-height: 642px;
@@ -388,7 +388,7 @@ button {
   .premium__h2 {
     font-size: 40px;
     line-height: 52px;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 22px;
   }
 
@@ -399,6 +399,7 @@ button {
   }
 
   .premium__cost {
+    margin-bottom: 48px;
     margin-left: 0;
     display: flex;
     align-items: center;
@@ -439,6 +440,11 @@ button {
     padding-bottom: 91px;
   }
 
+  .footer__logo {
+    max-width: 127px;
+    max-height: 33px;
+  }
+
   .footer__flex {
     display: flex;
     align-items: center;
@@ -446,9 +452,12 @@ button {
   }
 
   .footer__p {
-    margin-right: 339px;
+    margin-right: 327px;
   }
 
+  .footer__social {
+    margin-bottom: 2px;
+  }
   .footer__social__a:last-child {
     margin-right: 0;
   }

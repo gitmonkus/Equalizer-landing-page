@@ -312,7 +312,6 @@ button {
     max-width: 1440px;
     margin: 0 auto;
     background: url(../assets/bg-main-desktop.png) no-repeat right -100px top -200px;
-    background-size: cover;
   }
 
   .tablet__right__img {
@@ -323,7 +322,7 @@ button {
   /* MAIN TEXT SECTION */
 
   .main__logo {
-    margin-bottom: 127.01px;
+    margin-bottom: 122.01px;
     margin-left: 166.15px;
     margin-top: 61.99px;
   }

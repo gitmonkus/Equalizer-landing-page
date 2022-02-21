@@ -365,7 +365,7 @@ button {
   }
 
   .illustration__app {
-    top: -215px;
+    top: -214px;
     left: 258px;
     max-width: 312px;
     max-height: 642px;
@@ -378,7 +378,7 @@ button {
     max-height: 625px;
     padding-left: 54px;
     padding-right: 59px;
-    top: 990px;
+    top: 988px;
     left: 734px;
     z-index: 2;
     color: var(--white);

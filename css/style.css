@@ -142,6 +142,7 @@ button {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
+  margin-bottom: 12px;
 }
 
 .premium__p {
@@ -240,14 +241,95 @@ button {
 
   /* MAIN TEXT SECTION */
 
+  .main__logo {
+    margin-top: 61.99px;
+  }
+
   .main__text {
     max-width: 500px;
+    margin-bottom: 249px;
   }
 
   .main__h1 {
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -0.727273px;
+  }
+
+  /* ILLUSTRATION SECTION */
+
+  .illustration__top {
+    border-radius: 12px;
+    margin-left: 33px;
+    margin-right: 39px;
+    min-width: 696px;
+    min-height: 600px;
+    margin-bottom: 183px;
+  }
+
+  .illustration__img {
+    max-height: 420px;
+    position: absolute;
+    top: -31px;
+    left: 229px;
+  }
+
+  .illustration__app {
+    top: -138px;
+    left: 197px;
+    max-width: 270.21px;
+  }
+
+  /* PREMIUM BOTTOM SECTION */
+
+  .premium__bottom {
+    max-width: 399px;
+    max-height: 546px;
+    padding-left: 48px;
+    padding-right: 49px;
+    position: absolute;
+    top: 938px;
+    left: 272px;
+    z-index: 2;
+    color: var(--white);
+    margin-bottom: 61px;
+  }
+
+  .premium__cost {
+    margin-left: 6px;
+  }
+
+  .premium__btn__ios {
+    margin-bottom: 16px;
+  }
+
+  button {
+    margin-left: 6px;
+    margin-bottom: 0;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer {
+    padding-left: 33px;
+    padding-right: 39px;
+    padding-bottom: 85px;
+  }
+
+  .footer__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__logo {
+    margin-left: 1.15px;
+  }
+
+  .footer__p {
+    max-width: 366px;
+    padding-right: 0;
+    margin: 0;
   }
 }
 

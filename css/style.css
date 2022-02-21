@@ -23,7 +23,7 @@ body {
 body {
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--black);
-  background: url(../assets/bg-main-mobile.png) no-repeat right;
+  background: url(../assets/bg-main-mobile.png) no-repeat left -30px top -200px;
 }
 
 img {
@@ -198,7 +198,7 @@ button {
 /* TABLET VIEW */
 @media (min-width: 768px) {
   body {
-    background: url(../assets/bg-main-tablet.png) no-repeat;
+    background: url(../assets/bg-main-tablet.png) no-repeat right -100px top -270px;
     position: relative;
   }
 
@@ -311,7 +311,7 @@ button {
   body {
     max-width: 1440px;
     margin: 0 auto;
-    background: url(../assets/bg-main-desktop.png) no-repeat center;
+    background: url(../assets/bg-main-desktop.png) no-repeat right -100px top -200px;
     background-size: cover;
   }
 

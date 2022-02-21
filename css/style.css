@@ -1,0 +1,259 @@
+:root {
+  --cyan: #66e2dc;
+  --orange-red: #fa7453;
+  --orange: #ffb964;
+  --white: #fcfaf9;
+  --black: #191826;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--black);
+  background: url(../assets/bg-main-mobile.png) no-repeat right;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+/* 
+h1 {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+} */
+
+/* .body1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.body2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+} */
+
+button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: var(--white);
+  min-width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+/* MAIN TEXT SECTION */
+
+.main__logo {
+  margin-bottom: 64.01px;
+  margin-left: 24.15px;
+  margin-top: 39.99px;
+}
+
+.main__text {
+  padding: 1.5rem;
+  padding-bottom: 0;
+  margin-bottom: 166px;
+}
+
+.main__h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.454545px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+/* ILLUSTRATION TOP SECTION */
+
+.illustration__top {
+  background: var(--black);
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+}
+
+.illustration__img {
+  max-height: 420px;
+}
+
+.illustration__app {
+  position: absolute;
+  top: -98px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 208.97px;
+}
+
+/* PREMIUM BOTTOM SECTION */
+
+.premium__bottom {
+  background: var(--orange-red);
+  padding-left: 36px;
+  padding-right: 37px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-radius: 12px;
+  margin-top: -36px;
+  position: relative;
+  z-index: 2;
+  color: var(--white);
+  margin-bottom: 61px;
+}
+
+.premium__h2 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.premium__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 36px;
+  margin-top: 0;
+}
+
+.premium__cost {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.premium__dollar {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+}
+
+.premium__btn__ios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--black);
+}
+
+.premium__btn__ios__img,
+.premium__btn__and__img {
+  margin-right: 7.92px;
+}
+
+.premium__btn__and {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+  color: var(--black);
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 80px;
+}
+
+.footer__logo {
+  margin-bottom: 32.01px;
+}
+
+.footer__p {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 30px;
+}
+
+.footer__email {
+  font-weight: 700;
+}
+
+.footer__social__a {
+  margin-right: 20px;
+}
+
+/*
+///////////////// 
+//MEDIA QUERIES// 
+/////////////////
+*/
+
+/* TABLET VIEW */
+@media (min-width: 768px) {
+  body {
+    background: url(../assets/bg-main-tablet.png) no-repeat;
+    position: relative;
+  }
+
+  .tablet__right__img {
+    position: absolute;
+    background: url(../assets/bg-pattern-1.svg) no-repeat center;
+    background-size: cover;
+    z-index: 10;
+    top: -32px;
+    right: 0;
+    min-width: 266.67px;
+    min-height: 400px;
+  }
+
+  /* MAIN TEXT SECTION */
+
+  .main__text {
+    max-width: 500px;
+  }
+
+  .main__h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+  }
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+  }
+}

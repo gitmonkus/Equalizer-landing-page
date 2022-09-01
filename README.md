@@ -50,4 +50,4 @@ Users should be able to:
 
 - Website - [Steven Palfreyman](https://www.stevewhocodes.com)
 - Frontend Mentor - [steveWhoCodes](https://www.frontendmentor.io/profile/steveWhoCodes)
-- Twitter - [stevewhocodes](https://www.twitter.com/stevewhocodes)
+- Twitter - [stevewhocodes](https://www.twitter.com/sForceSteve)
